@@ -1,0 +1,454 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.isa_info, .isa_success, .isa_warning, .isa_error {
+    width: auto;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-top: 0px !important;
+    line-height: inherit;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: white;
+    background-color: #48bc38;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: white;
+    background-color: #fa3e3e;
+}
+.width-quarter {
+    width: 25% !important;
+    display: inline-block;
+}
+.width-half {
+    width: 50% !important;
+    display: inline-block;
+}
+.width-three-quarter {
+    width: 75% !important;
+    display: inline-block;
+}
+.width-full {
+    width: 100% !important;
+    display: inline-block;
+}
+
+
+.mb4wp-form-wrapper {
+    padding: 0 !important;
+    width: 100%;
+}
+.mb4wp-nav-tab {
+    margin-left: -1px;
+    box-shadow: none !important;
+}
+.mb4wp-nav-tab-active {
+    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+    color: #000;
+    margin-bottom: -1px;
+}
+
+.mb4wp-fmbldr-wrapper,
+.mb4wp-builder-wrapper {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.mb4wp-fmbldr-option-panel,
+.mb4wp-fix-area {
+    width: 30%;
+}
+.mb4wp-fmbldr-h3,
+.mb4wp-h3 {
+    margin: 0;
+    color: #23282d;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px 10px 11px 14px;
+    line-height: 21px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mb4wp-fmbldr-option-fields,
+.mb4wp-available-fields {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    min-height: 250px;
+}
+.mb4wp-fmbldr-preview-panel,
+.mb4wp-sortable-area {
+    width: 70%;
+}
+.mb4wp-form-container {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    min-height: 304px;
+}
+
+.mb4wp-field-button,
+.mb4wp-field-input {
+    height: 41.6px;
+    margin: 5px 0;
+    padding: 10px 20px !important;
+    font-size: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: 100%;
+    cursor: pointer;
+}
+.mb4wp-input-padding {
+    float: left;
+    height: 28px;
+    margin: 0 4px 0 0;
+}
+.mb4wp-form-preview-submit {
+    padding: 10px 20px;
+}
+.mb4wp-form-preview-submit button{
+    background-color: #e0e0e0;
+    padding: 6px 12px;
+    border: 0;
+    font-weight: bold;
+}
+.mb4wp-single-input {
+    position: relative;
+}
+.float-circle-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.mb4wp-fmbldr-input-fields {
+    position: relative;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.mb4wp-fmbldr-validation-box {
+    display: none;
+    color: firebrick;
+}
+
+.mb4wp-fmbldr-add {
+    position: relative;
+    cursor: pointer;
+}
+
+.mb4wp-fmbldr-dynamic-form-fields {
+    padding: 10px 20px;
+}
+.mb4wp-fmbldr-dynamic-form-fields span.dashicons-move {
+    display: none;
+    vertical-align: middle;
+}
+.mb4wp-fmbldr-dynamic-form-fields:hover span.dashicons-move {
+    display: inline;
+    float:  right;
+    margin-top: 7px;
+}
+
+.mb4wp-fmbldr-dynamic-form-fields:hover {
+    background: #f1f1f1;
+    cursor: grab;
+}
+.mb4wp-fmbldr-text-inputs input:not(input[type = checkbox]) {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+
+.mb4wp-fmbldr-close {
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+#mb4wp_form_description,
+#mb4wp_form_shortcode,
+#consent_textarea,
+#redirectURL_textarea {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+button[disabled].mb4wp-field-button {
+    cursor: default;
+}
+
+#mb4wp-description {
+    padding: 10px;
+    background: transparent;
+    font: 400 16px/20px helvetica, arial, sans-serif;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.mb4wp-label,
+.mb4wp-form-branding {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-indent: 2px;
+    display: flex;
+}
+
+.mb4wp-form-branding {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.mb4wp-builder-content {
+    padding: 10px 20px;
+}
+
+.mb4wp-builder-content h3{
+    font-size: 1.6em;
+}
+.mb4wp-fmbldr-notice{
+    color: #856404;
+    background-color: #fff3cd;
+    padding: 5px;
+}
+.mb4wp-fmbldr-notice::before{
+    content: "!";
+    color: #856404;
+    background-color: #efe3af;
+    padding: 0 7px;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#mb4wp_form_builder_consent{
+    align-items: flex-start;
+}
+#mb4wp_builder_form_chekbox{
+    margin-top: 5px;
+}
+#mb4wp_builder_form_checkbox_label p{
+    margin: 0;
+}
+
+#mb4wp-form-submit-message{
+    width: 400px;
+    max-width: 400px;
+}
+.mb4wp-mt-4{
+    padding-top: 25px!important;
+}
+#shortcode_inputarea{
+    position: relative;
+}
+#copy-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#mb4wp_form_options{
+    margin-top: 20px;
+}
+
+.custom-theme input[type="color"]{
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+.custom-theme input[type="color"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+.custom-theme input[type="number"]{
+    width: 114px;
+}
+.custom-theme span{
+    border: 1px solid;
+    padding: 4px 4px 9px 0px;
+    border-radius: 4px;
+}
+.mb4wp-pb-1{
+    padding-bottom: 1rem;
+}
+.mb4wp-pt-1{
+    padding-top: 1rem;
+}
+#mb4wp-custom-field-add{
+    margin: 5px 0;
+    padding: 3px 20px;
+    font-size: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* settings */
+.settings .ql-toolbar{
+    margin-top: 4px;
+}
+.settings #mbq_editor,.ql-toolbar{
+    max-width: 400px;
+}
+
+/* modal */
+.mb4wp-predefined-button,
+.mb4wp-default-button{
+    display: flex;
+    align-items: center;
+}
+button.edit_image_container,
+button.check_image_container{
+    margin: 5px 0 5px 3px;
+    align-self: stretch;
+    padding: 0 10px;
+    cursor: pointer;
+}
+button.check_image_container{
+    display: none;
+}
+button[disabled].edit_image_container{
+    cursor: default;
+    color: #ababab;
+}
+button[disabled].edit_image_container .edit_image{
+    color: #ababab;
+}
+.edit_image{
+    color: #566379;
+}
+.mb4wp-overlay{
+    position: fixed;
+    background-color: #00000059;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.mb4wp-modal-dialog{
+    max-width: 500px;
+    position: fixed;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.mb4wp-modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    line-height:0.01
+}
+.mb4wp-modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mb4wp-modal-body label {
+    margin-top: 10px;
+    align-self: start;
+    font-weight: 600;
+}
+.mb4wp-modal-body input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+.mb4wp-modal-content{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #0000002d;
+    border-radius: 0.5rem;
+}
+.mb4wp-modal-content.mb4wp-delete-box{
+    box-shadow: 0 10px 25px 5px #191D24;
+}
+.mb4wp-modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.mb4wp-modal-footer input{
+    padding: 4px 18px!important;
+}
+.mb4wp-button-warning{
+    border-radius: 3px;
+    color: #E64D43;
+    background-color: transparent;
+    border: 1px solid #E64D43;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 2.15384615;
+    transition: all .15s ease-in-out;
+}
+.mb4wp-button-warning:hover{
+    background-color: #E64D43;
+    color: white;
+}
+.mb4wp-delete-modal-close,
+.mb4wp-modal-close{
+    cursor: pointer;
+    margin-left: auto;
+}
+.mb4wp-flex-1{
+    flex: 1;
+}
+.mb4wp-ml-5{
+    margin-left: 5px !important;
+}
+.mb4wp-delete-content{
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width:767.99px){
+    .label-width{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px){
+    .label-width{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .mb4wp-fmbldr-input-fields {
+        display: block;
+    }
+    .mb4wp-fmbldr-add{
+        margin-top: 5px!important;
+    }
+}

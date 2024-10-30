@@ -1,0 +1,137 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.mb4wp-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mb4wp-form-group {
+    margin-bottom: 16px;
+}
+.mb4wp-form-group button{
+    cursor: pointer;
+}
+.mb4wp-label {
+    font-family: inherit;
+    margin-bottom: 8px;
+    display: flex;
+}
+input[type="text"].mb4wp-form-control,
+input[type="email"].mb4wp-form-control,
+.mb4wp-form-control {
+    display: block;
+    width: 100%;
+    box-sizing:border-box;
+    background-clip: padding-box;
+    box-shadow: none;
+    padding: 14px;
+}
+.mb-theme-light{
+    padding: 20px;
+    background-color: #ffffff;
+    color: #2D3440;
+}
+.mb-theme-light label{
+    font-size: 16px;
+    color: #657786;
+    font-weight: 600;
+}
+.mb-theme-light input{
+    font-weight: 400;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.mb-theme-light button,
+.mb-theme-dark button{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-top: 8px;
+    border-radius: 3px;
+    border: 1px solid #057BDE;
+    background-color: #057BDE;
+    transition: all .1s ease-in-out;
+}
+.mb-theme-light button:hover,
+.mb-theme-dark button:hover{
+    background-color: #0466b9;
+    border-color: #0466b9;
+}
+.mb4wp-consent-checkbox{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+.mb4wp-consent-checkbox input[type="checkbox"]{
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.mb4wp-consent-checkbox p{
+    margin: 0;
+}
+.mb4wp-consent-checkbox a{
+    color: inherit;
+}
+.mb-theme-dark{
+    padding: 20px;
+    background-color: #050607;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.mb-theme-dark input{
+    font-weight: 400;
+    color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.mb-theme-dark a{
+    color: #FFFFFF;
+}
+
+input[type="text"].mb4wp-form-control:focus,
+input[type="email"].mb4wp-form-control:focus {
+    outline: unset;
+}
+
+.mb4wp-form-control:not(select) {
+    height: auto;
+}
+input.mb4wp-subscribe {
+    padding: 10px 30px !important;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert {
+    position: relative;
+    padding: 25px 50px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
